@@ -50,8 +50,8 @@ const productWithoutColor = (p) => {
 	console.log(withoutColor);
 };
 
-// console.log(productsWithId());
-// logAllProductsName(products);
-// logProductIdThree(productsWithId());
-// producColorBlack(productsWithId());
+console.log(productsWithId());
+logAllProductsName(products);
+logProductIdThree(productsWithId());
+producColorBlack(productsWithId());
 productWithoutColor(productsWithId());
