@@ -45,7 +45,7 @@ const producColorBlack = (p) => {
 };
 
 const productWithoutColor = (p) => {
-	const withoutColor = p.filter(({ colors }) => colors && colors.length !== 0);
+	const withoutColor = p.filter(({ colors }) => colors && colors.length === 0);
 
 	console.log(withoutColor);
 };
