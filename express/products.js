@@ -1,4 +1,4 @@
-[
+let products = [
   {
     "id": 1,
     "name": "Macbook",
@@ -52,3 +52,5 @@
   },
   { "id": 10, "name": "Monitor"," price": 200, "quantity": 3, "colors": [] }
 ]
+
+module.exports = products;
