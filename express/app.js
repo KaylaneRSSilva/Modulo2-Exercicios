@@ -1,7 +1,8 @@
 const express = require('express');
 let products = require('./products');
 
-const routes = require('./routes/routeProducts');
+const routesProducts = require('./routes/routeProducts');
+const routesUsers = require('./routes/routeUsers');
 
 // Exercício 1 - Aulas ao vivo 1 e 2
 const app = express();
@@ -11,7 +12,8 @@ const HTTP_OK = 200;
 app.use(express.json());
 
 // Exercício 1  - Aula ao vivo 3 
-app.use('/api/products', routes)
+app.use('/api/products', routesProducts);
+app.use('/api/users', routesUsers);
 
 // Exercício 2 - Aula 1
 // app.get('/', (_req, res) => {
